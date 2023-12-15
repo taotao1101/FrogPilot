@@ -56,6 +56,7 @@ sound_list: dict[int, tuple[str, int | None, float]] = {
 
   # Other
   AudibleAlert.goat: ("goat.wav", None, MAX_VOLUME),
+  AudibleAlert.speedDown: ("speeddown.wav", 3, MAX_VOLUME),
 }
 
 def check_controls_timeout_alert(sm):

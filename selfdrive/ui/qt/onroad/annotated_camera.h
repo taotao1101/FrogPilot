@@ -187,6 +187,9 @@ private:
   inline QColor greenColor(int alpha = 242) { return QColor(23, 134, 68, alpha); }
 
 protected:
+  // NDA neokii
+  void drawRoadLimitSpeed(QPainter &p);
+
   void paintGL() override;
   void initializeGL() override;
   void showEvent(QShowEvent *event) override;
