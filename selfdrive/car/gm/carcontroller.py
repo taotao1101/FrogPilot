@@ -60,13 +60,12 @@ class CarController(CarControllerBase):
   def calc_pedal_command(accel: float, long_active: bool) -> float:
     if not long_active: return 0.
 
-    zero = 0.15625  # 40/256
-    if accel > 0.:
-      # Scales the accel from 0-1 to 0.156-1
-      pedal_gas = clip(((1 - zero) * accel + zero), 0., 1.)
+    if accel < -0.5:
+      pedal_gas = 0
     else:
-      # if accel is negative, -0.1 -> 0.015625
-      pedal_gas = clip(zero + accel, 0., zero)  # Make brake the same size as gas, but clip to regen
+
+      pedaloffset = 0.24
+      pedal_gas = clip((pedaloffset + accel * 0.6), 0.0, 1.0)
 
     return pedal_gas
 
