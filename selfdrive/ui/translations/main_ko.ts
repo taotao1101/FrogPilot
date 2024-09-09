@@ -695,8 +695,8 @@ This may take up to a minute.</source>
         <translation>소프트웨어</translation>
     </message>
     <message>
-        <source>Controls</source>
-        <translation>제어판</translation>
+        <source>Driving</source>
+        <translation>운전설정</translation>
     </message>
     <message>
         <source>Navigation</source>
