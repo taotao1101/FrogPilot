@@ -360,7 +360,7 @@ def manager_init() -> None:
     ("WD40LiveTorqueParameters", ""),
     ("WD40Score", "0"),
     ("WheelIcon", "frog"),
-    ("WheelSpeed", "0")
+    ("WheelSpeed", "0"),
     ("AutoNaviSpeedCtrlStart", "25"),
     ("AutoNaviSpeedCtrlEnd", "15"),
   ]
