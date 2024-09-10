@@ -15,6 +15,10 @@
         <source>Reboot and Update</source>
         <translation>업데이트 및 재부팅</translation>
     </message>
+    <message>
+        <source>Disable Internet Check</source>
+        <translation>인터넷 체크 비활성화</translation>
+    </message>
 </context>
 <context>
     <name>AdvancedNetworking</name>
@@ -86,6 +90,26 @@
         <source>for &quot;%1&quot;</source>
         <translation>&quot;%1&quot;에 접속하려면 비밀번호가 필요합니다</translation>
     </message>
+    <message>
+        <source>Off</source>
+        <translation>끄기</translation>
+    </message>
+    <message>
+        <source>Always</source>
+        <translation>항상</translation>
+    </message>
+    <message>
+        <source>Only Onroad</source>
+        <translation>도로만</translation>
+    </message>
+    <message>
+        <source>Until Reboot</source>
+        <translation>재부팅할 때까지</translation>
+    </message>
+    <message>
+        <source>Allow tethering with your data SIM and keep it active either while driving or continuously.</source>
+        <translation>데이터 SIM으로 테더링을 허용하고 운전 중 또는 지속적으로 테더링을 활성화합니다.</translation>
+    </message>
 </context>
 <context>
     <name>AnnotatedCameraWidget</name>
@@ -108,6 +132,154 @@
     <message>
         <source>LIMIT</source>
         <translation>LIMIT</translation>
+    </message>
+    <message>
+        <source>Vehicle in blind spot</source>
+        <translation>사각지대에 차량</translation>
+    </message>
+    <message>
+        <source>m/s²</source>
+        <translation>m/s²</translation>
+    </message>
+    <message>
+        <source>m/s</source>
+        <translation>m/s</translation>
+    </message>
+    <message>
+        <source>kph</source>
+        <translation>kph</translation>
+    </message>
+    <message>
+        <source> ft/s²</source>
+        <translation> ft/s²</translation>
+    </message>
+    <message>
+        <source>Accel: %1%2</source>
+        <translation>엑셀: %1%2</translation>
+    </message>
+    <message>
+        <source> - Max: %1%2</source>
+        <translation> - 최대: %1%2</translation>
+    </message>
+    <message>
+        <source> | Obstacle: </source>
+        <translation> | 방해물: </translation>
+    </message>
+    <message>
+        <source>  |  Obstacle Factor: </source>
+        <translation>  |  방해물 요인: </translation>
+    </message>
+    <message>
+        <source> - Stop: </source>
+        <translation> - 멈춤: </translation>
+    </message>
+    <message>
+        <source>  -  Stop Factor: </source>
+        <translation>  -  멈춤 요인: </translation>
+    </message>
+    <message>
+        <source>Follow: </source>
+        <translation>추종: </translation>
+    </message>
+    <message>
+        <source>Follow Distance: </source>
+        <translation>추종 거리: </translation>
+    </message>
+    <message>
+        <source>Confirm speed limit</source>
+        <translation>속도 제한 확인</translation>
+    </message>
+    <message>
+        <source>Ignore speed limit</source>
+        <translation>속도 제한 무시</translation>
+    </message>
+    <message>
+        <source>Conditional Experimental Mode ready</source>
+        <translation>조건부 실험모드 준비 완료</translation>
+    </message>
+    <message>
+        <source>Conditional Experimental overridden</source>
+        <translation>조건부 실험 재정의됨</translation>
+    </message>
+    <message>
+        <source>Experimental Mode manually activated</source>
+        <translation>실험 모드 수동 활성화</translation>
+    </message>
+    <message>
+        <source>Experimental Mode activated for %1</source>
+        <translation>%1 에 대한 실험모드 활성화</translation>
+    </message>
+    <message>
+        <source>low speed</source>
+        <translation>낮은 속도</translation>
+    </message>
+    <message>
+        <source>speed being less than %1 %2</source>
+        <translation>속도가 %1 %2 미만입니다</translation>
+    </message>
+    <message>
+        <source>Experimental Mode activated for turn</source>
+        <translation>실험모드가 회전에 대한 활성화</translation>
+    </message>
+    <message>
+        <source> / lane change</source>
+        <translation> / 차선 변경</translation>
+    </message>
+    <message>
+        <source>Experimental Mode activated for intersection</source>
+        <translation>교차로에 대한 실험 모드 활성화</translation>
+    </message>
+    <message>
+        <source>Experimental Mode activated for upcoming turn</source>
+        <translation>다가오는 턴을 위해 실험 모드 활성화</translation>
+    </message>
+    <message>
+        <source>Experimental Mode activated for curve</source>
+        <translation>곡선 차로에 대한 실험 모드 활성화</translation>
+    </message>
+    <message>
+        <source>Experimental Mode activated for stopped lead</source>
+        <translation>선행차량 정지에 대한 실험 모드 활성화</translation>
+    </message>
+    <message>
+        <source>Experimental Mode activated for slower lead</source>
+        <translation>느린 선행차량을 위해 실험 모드 활성화</translation>
+    </message>
+    <message>
+        <source>Experimental Mode activated %1</source>
+        <translation>%1 에서 실험모드 활성화</translation>
+    </message>
+    <message>
+        <source>to stop</source>
+        <translation>멈추기</translation>
+    </message>
+    <message>
+        <source>Experimental Mode forced on %1</source>
+        <translation>%1 에서 실험모드 강제 활성화</translation>
+    </message>
+    <message>
+        <source>Experimental Mode activated due to no speed limit</source>
+        <translation>속도 제한이 없어 실험 모드가 활성화됨</translation>
+    </message>
+    <message>
+        <source>Always On Lateral active</source>
+        <translation>상시 조향 모드 활성화</translation>
+    </message>
+    <message>
+        <source>. Press the &quot;Cruise Control&quot; button to disable</source>
+        <translation>. 비활성화하기 위해 &quot;크루즈 컨트롤&quot; 을 누르세요.</translation>
+    </message>
+    <message>
+        <source>. Long press the &quot;distance&quot; button to revert</source>
+        <translation>. &quot;거리&quot; 버튼을 길게 눌러 되돌리세요.</translation>
+    </message>
+    <message>
+        <source>. Click the &quot;LKAS&quot; button to revert</source>
+        <translation>. &quot;LKAS&quot; 버튼을 눌러 되돌리세요.</translation>
+    </message>
+    <message>
+        <source>. Double tap the screen to revert</source>
+        <translation>. 화면을 두 번 두드려서 되돌리세요.</translation>
     </message>
 </context>
 <context>
@@ -304,6 +476,242 @@
     <message>
         <source>PAIR</source>
         <translation>동기화</translation>
+    </message>
+    <message>
+        <source>Delete Driving Data</source>
+        <translation>운전 데이터 삭제</translation>
+    </message>
+    <message>
+        <source>DELETE</source>
+        <translation>삭제</translation>
+    </message>
+    <message>
+        <source>This button provides a swift and secure way to permanently delete all stored driving footage and data from your device. Ideal for maintaining privacy or freeing up space.</source>
+        <translation>이 버튼은 저장된 모든 운전 영상과 데이터를 장치에서 영구적으로 삭제할 수 있는 빠르고 안전한 방법을 제공합니다. 개인 정보 보호를 유지하거나 공간을 확보하는 데 이상적입니다.</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to permanently delete all of your driving footage and data?</source>
+        <translation>모든 운전 영상과 데이터를 영구적으로 삭제하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>삭제</translation>
+    </message>
+    <message>
+        <source>Deleting footage...</source>
+        <translation>삭제하는 중...</translation>
+    </message>
+    <message>
+        <source>Deleted!</source>
+        <translation>삭제 완료!</translation>
+    </message>
+    <message>
+        <source>Screen Recordings</source>
+        <translation>화면 녹화</translation>
+    </message>
+    <message>
+        <source>RENAME</source>
+        <translation>이름 변경</translation>
+    </message>
+    <message>
+        <source>Delete or rename your screen recordings.</source>
+        <translation>화면 녹화를 삭제하거나 이름을 변경합니다.</translation>
+    </message>
+    <message>
+        <source>Select a recording to delete</source>
+        <translation>삭제할 녹화 영상 선택</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to delete this recording?</source>
+        <translation>이 기록을 삭제하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Deleting...</source>
+        <translation>삭제하는 중...</translation>
+    </message>
+    <message>
+        <source>Failed...</source>
+        <translation>실패...</translation>
+    </message>
+    <message>
+        <source>Select a recording to rename</source>
+        <translation>이름을 바꿀 기록을 선택하세요</translation>
+    </message>
+    <message>
+        <source>Enter a new name</source>
+        <translation>새 이름을 입력하세요.</translation>
+    </message>
+    <message>
+        <source>Rename Recording</source>
+        <translation>녹화 이름 바꾸기</translation>
+    </message>
+    <message>
+        <source>Renaming...</source>
+        <translation>바꾸는 중...</translation>
+    </message>
+    <message>
+        <source>Renamed!</source>
+        <translation>이름 바꾸기 완료!</translation>
+    </message>
+    <message>
+        <source>FrogPilot Backups</source>
+        <translation>프로그파일럿 백업</translation>
+    </message>
+    <message>
+        <source>BACKUP</source>
+        <translation>백업</translation>
+    </message>
+    <message>
+        <source>RESTORE</source>
+        <translation>복구</translation>
+    </message>
+    <message>
+        <source>Backup, delete, or restore your FrogPilot backups.</source>
+        <translation>프로그파일럿 백업을 백업, 삭제 또는 복원합니다.</translation>
+    </message>
+    <message>
+        <source>Name your backup</source>
+        <translation>백업 이름 지정</translation>
+    </message>
+    <message>
+        <source>Do you want to compress this backup? The end file size will be 2.25x smaller, but can take 10+ minutes.</source>
+        <translation>이 백업을 압축하시겠습니까? 최종 파일 크기는 2.25배 작지만 10분 이상 걸릴 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Backing up...</source>
+        <translation>백업하는 중...</translation>
+    </message>
+    <message>
+        <source>Compressing backup...</source>
+        <translation>백업을 압축하는 중...</translation>
+    </message>
+    <message>
+        <source>Success!</source>
+        <translation>성공!</translation>
+    </message>
+    <message>
+        <source>Select a backup to delete</source>
+        <translation>삭제할 백업을 선택하세요.</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to delete this backup?</source>
+        <translation>이 백업을 삭제하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Select a restore point</source>
+        <translation>복원 지점을 선택</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to restore this version of FrogPilot?</source>
+        <translation>프로그파일럿의 이 버전을 복원하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>복구</translation>
+    </message>
+    <message>
+        <source>Restoring...</source>
+        <translation>복구하는 중...</translation>
+    </message>
+    <message>
+        <source>Extracting...</source>
+        <translation>압축 해제 중...</translation>
+    </message>
+    <message>
+        <source>Restored!</source>
+        <translation>복구되었습니다!</translation>
+    </message>
+    <message>
+        <source>Rebooting...</source>
+        <translation>재부팅 중...</translation>
+    </message>
+    <message>
+        <source>Toggle Backups</source>
+        <translation>토글 백업</translation>
+    </message>
+    <message>
+        <source>Backup, delete, or restore your toggle backups.</source>
+        <translation>토글 백업을 백업, 삭제 또는 복원합니다.</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to restore this toggle backup?</source>
+        <translation>이 토글 백업을 복원하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Flash Panda</source>
+        <translation>플래시 판다</translation>
+    </message>
+    <message>
+        <source>FLASH</source>
+        <translation>플래시</translation>
+    </message>
+    <message>
+        <source>Use this button to troubleshoot and update the Panda device&apos;s firmware.</source>
+        <translation>이 버튼을 사용하면 판다의 펌웨어 문제를 해결하고 업데이트할 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to flash the Panda?</source>
+        <translation>판다 플래시 하겠습니까?</translation>
+    </message>
+    <message>
+        <source>Flash</source>
+        <translation>플래시</translation>
+    </message>
+    <message>
+        <source>Flashing...</source>
+        <translation>플래싱하는 중...</translation>
+    </message>
+    <message>
+        <source>Recovery Failed...</source>
+        <translation>복구 실패...</translation>
+    </message>
+    <message>
+        <source>Flash Failed...</source>
+        <translation>플래싱 실패...</translation>
+    </message>
+    <message>
+        <source>Flashed!</source>
+        <translation>플래싱 완료!</translation>
+    </message>
+    <message>
+        <source>Reset Toggles To Default</source>
+        <translation>토글을 기본값으로 재설정</translation>
+    </message>
+    <message>
+        <source>Reset your toggle settings back to their default settings.</source>
+        <translation>토글 설정을 기본 설정으로 되돌립니다.</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to completely reset all of your toggle settings?</source>
+        <translation>모든 토글 설정을 완전히 재설정하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Resetting toggles...</source>
+        <translation>토글 재설정하는 중...</translation>
+    </message>
+    <message>
+        <source>Reset!</source>
+        <translation>재설정!</translation>
+    </message>
+    <message>
+        <source>Force Started State</source>
+        <translation>강제 시작 상태</translation>
+    </message>
+    <message>
+        <source>OFFROAD</source>
+        <translation>오프로드</translation>
+    </message>
+    <message>
+        <source>ONROAD</source>
+        <translation>온로드(일반도로)</translation>
+    </message>
+    <message>
+        <source>OFF</source>
+        <translation>끄기</translation>
+    </message>
+    <message>
+        <source>Force openpilot either offroad or onroad.</source>
+        <translation>오프로드나 온로드 모두에서 오픈 파일럿을 강제로 실행합니다.</translation>
     </message>
 </context>
 <context>
@@ -630,6 +1038,10 @@
         <source>now</source>
         <translation>now</translation>
     </message>
+    <message>
+        <source>FrogPilot</source>
+        <translation>프로그파일럿</translation>
+    </message>
 </context>
 <context>
     <name>Reset</name>
@@ -695,6 +1107,10 @@ This may take up to a minute.</source>
         <translation>소프트웨어</translation>
     </message>
     <message>
+        <source>← Back</source>
+        <translation>← 뒤로</translation>
+    </message>
+    <message>
         <source>Driving</source>
         <translation>운전설정</translation>
     </message>
@@ -703,12 +1119,20 @@ This may take up to a minute.</source>
         <translation>내비게이션</translation>
     </message>
     <message>
-        <source>Vehicles</source>
-        <translation>차량정보</translation>
-    </message>
-    <message>
         <source>Visuals</source>
         <translation>비주얼</translation>
+    </message>
+    <message>
+        <source>Navigation</source>
+        <translation>내비게이션</translation>
+    </message>
+    <message>
+        <source>Vehicles</source>
+        <translation>차량설정</translation>
+    </message>
+    <message>
+        <source>Controls</source>
+        <translation>제어판</translation>
     </message>
 </context>
 <context>
@@ -977,6 +1401,30 @@ This may take up to a minute.</source>
     <message>
         <source>never</source>
         <translation>업데이트 안함</translation>
+    </message>
+    <message>
+        <source>Updates are only downloaded while the car is off or in park.</source>
+        <translation>업데이트는 차량이 꺼져 있거나 주차되어 있을 때만 다운로드됩니다.</translation>
+    </message>
+    <message>
+        <source>Automatically Update FrogPilot</source>
+        <translation>프로그파일럿 자동 업데이트</translation>
+    </message>
+    <message>
+        <source>FrogPilot will automatically update itself and it&apos;s assets when you&apos;re offroad and connected to Wi-Fi.</source>
+        <translation>프로그파일럿은 오프로드 상태이고 Wi-Fi에 연결되어 있으면 자동으로 자체 업데이트합니다.</translation>
+    </message>
+    <message>
+        <source>Error Log</source>
+        <translation>에러 로그</translation>
+    </message>
+    <message>
+        <source>VIEW</source>
+        <translation>보기</translation>
+    </message>
+    <message>
+        <source>View the error log for openpilot crashes.</source>
+        <translation>오픈파일럿 오류 로그를 확인하세요.</translation>
     </message>
 </context>
 <context>
@@ -1264,7 +1712,6 @@ This may take up to a minute.</source>
         <translation>삭제</translation>
     </message>
 </context>
-
 <context>
     <name>FrogPilotControlsPanel</name>
     <message>
@@ -1607,8 +2054,6 @@ This may take up to a minute.</source>
         <source>Simulate a distance button via the onroad UI to control personalities, 'Experimental Mode', and 'Traffic Mode'.</source>
         <translation>화면 UI를 통해 거리 버튼을 시뮬레이션하여 개성, '실험 모드' 및 '트래픽 모드'를 제어합니다.</translation>
     </message>
-
-
     <message>
         <source>Experimental Mode Activation</source>
         <translation>실험모드 활성화</translation>
@@ -2128,8 +2573,6 @@ This may take up to a minute.</source>
         <source>Use the Vienna (EU) speed limit style signs as opposed to MUTCD (US).</source>
         <translation>MUTCD(US) 대신 Vienna(EU) 속도 제한 스타일 표지판을 사용하세요.</translation>
     </message>
-
-
     <message>
         <source>Vision Turn Speed Controller</source>
         <translation>비전 기반 곡선 차로 속도 조절 제어판</translation>
